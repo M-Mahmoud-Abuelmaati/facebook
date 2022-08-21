@@ -1,0 +1,218 @@
+.main-navbar {
+  /* width: 50%; */
+}
+.navbar-container {
+  height: 100%;
+  width: max-content;
+}
+.navbar-container-inner {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  height: max-content;
+  align-items: center;
+  text-align: center;
+  gap: 1.05rem;
+}
+.navbar--img {
+  width: 80%;
+  border-radius: 20px;
+}
+.navbar-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.322);
+  border-radius: 7px;
+  align-items: center;
+  padding: 5px;
+  gap: 5px;
+}
+.navbar-group > a,
+.navbar-container > a,
+.navbar-menu > a {
+  width: max-content;
+  height: max-content;
+  background-color: transparent;
+}
+
+a {
+  color: white;
+}
+.sm-nav {
+  width: 30px;
+  height: 30px;
+}
+.navbar-group > a:hover,
+.navbar-container > a:hover,
+.navbar-menu > a:hover {
+  color: rgba(0, 0, 255, 0.548);
+  background-color: #898f9c52;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.navbar-group {
+  background-color: rgba(0, 0, 0, 0.322);
+  border-radius: 7px;
+  padding: 5px;
+  margin-top: -10px;
+  justify-content: center;
+  display: flex;
+}
+
+.active {
+  color: #4267b2;
+  border-left: 2px solid #4267b2;
+}
+.triangle {
+  top: 3px;
+  right: 309px;
+  position: absolute;
+  transform: rotate(180deg);
+  border-top: 10px solid transparent;
+  border-left: 10px solid #5e1414;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  width: 0;
+  height: 0;
+}
+.notification-container {
+  z-index: 2;
+  position: absolute;
+  padding: 10px 10px 10px 0;
+  top: 170px;
+  left: 70px;
+  color: rgba(255, 255, 255, 0.062);
+  width: 300px;
+  max-height: 300px;
+  height: fit-content;
+  overflow-y: auto;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 5px;
+  background-color: #1c1e21;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.notification-container::-webkit-scrollbar{
+  width: 13px;
+  background-color: #211d1c;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.notification-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+.notification-container::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
+}
+.notification-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.247);
+}
+.notification-text {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-block: 10px;
+  margin-left: 5px;
+  font-size: 14px;
+  text-align: left;
+  line-height: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  height: 40px;
+  border-bottom: 1px solid #8c8b8b4e;
+}
+.notification-text:hover {
+  text-decoration: underline;
+  background-color: rgba(6, 11, 15, 0.582);
+  transition: .5s;
+}
+.notificationHeader{
+  font-size: 16px;
+  font-weight: bold;
+  color: #E4E6EB;
+  text-align: left;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+.notificationInner{
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 2000px) {
+  .sm-nav {
+    width: 30px;
+    height: 30px;
+  }
+  .main-navbar {
+    width: 4%;
+  }
+  .navbar-container {
+    background-color: #1c1e218d;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .sm-nav {
+    width: 25px;
+    height: 25px;
+  }
+  .main-navbar {
+    width: 5%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .sm-nav {
+    width: 20px;
+    height: 20px;
+  }
+  .main-navbar {
+    width: 5%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar--img {
+    width: 25px;
+    height: 25px;
+  }
+  .main-navbar {
+    width: 5%;
+  }
+  .navbar-container-inner {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .sm-nav {
+    width: 15px;
+    height: 15px;
+  }
+  .main-navbar {
+    width: 7%;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .main-navbar {
+    width: 15%;
+  }
+  .navbar--img {
+    width: 30px;
+    height: 30px;
+  }
+  .navbar-container {
+    background-color: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar-container-inner {
+    width: 10%;
+  }
+}

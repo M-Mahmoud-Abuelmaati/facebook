@@ -1,0 +1,126 @@
+.register {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+}
+.register-container {
+  display: flex;
+  align-items: center;
+  /* justify-items: center; */
+  justify-content: center;
+  /* align-content: center; */
+  height: 700px;
+  width: 65%;
+  margin: auto;
+  gap: 100px;
+}
+.facebook-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 70px;
+}
+.facebook-text h1 {
+  color: #1877f2;
+  font-size: 4rem;
+  line-height: 40px;
+}
+.facebook-text h2 {
+  font-weight: lighter;
+}
+.register-card {
+  padding: 10px;
+  border: 1px #fff solid;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+}
+
+.register-card-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.register-card-inner input {
+  width: 364px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  text-indent: 20px;
+}
+
+.register-card-inner .loginBtn {
+  border-radius: 10px;
+  height: 50px;
+  width: 364px;
+  margin: 10px;
+  text-align: center;
+  background-color: #1877f2;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+.loginBtn:hover {
+  background-color: #1562c7ca;
+  transition: 0.5s;
+}
+.register-card-inner .registerBtn {
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  background-color: #42b72a;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+
+.Link {
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.line {
+  margin-block: 10px;
+  width: 90%;
+  font-weight: bold;
+}
+
+.login-text-error{
+  display: relative;
+}
+.login-error{
+  font-weight: bold;
+  display: flex;
+  color: red;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 10px;
+  gap: 5px;
+}
+@media screen and (max-width: 960px) {
+  .register-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+  .facebook-text h2 {
+    font-size: 20px;
+  }
+  .facebook-text {
+    padding-bottom: 20px;
+    width: 70%;
+    align-items: center;
+  }
+}

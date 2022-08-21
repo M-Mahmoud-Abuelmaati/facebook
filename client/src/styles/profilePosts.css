@@ -1,0 +1,68 @@
+.profilePosts-container {
+  background-color: #1c1e218d;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1.3fr 1.5fr;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 20px;
+}
+.intro-container {
+  padding: 15px;
+  height: max-content;
+  border-radius: 15px;
+  background-color: #1c1e21;
+}
+.intro-h1 {
+  color: #fff;
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.intro-container-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro-p {
+  color: rgba(255, 255, 255, 0.632);
+}
+.secondaryBtn {
+  border: none;
+  width: 100%;
+  background-color: #373733;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+.secondaryBtn:hover {
+  background-color: #373733;
+}
+.card-posts-top {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding-block: 10px;
+  background-color: #2a2b2f45;
+  padding: 10px;
+}
+/* 2a2b2f45 This one */
+.profile-posts-container{
+    background-color: #1c1e21;
+    padding: 10px;
+    border-radius: 5px;
+}
+.profilePosts-postTitle{
+  margin-block: 10px;
+  padding: 20px;
+  background-color: #2a2b2f45;
+  border-radius: 10px;
+  color: #fff;
+  text-align: left;
+  font-size: 20px;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}

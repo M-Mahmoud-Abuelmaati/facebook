@@ -1,0 +1,158 @@
+.post-container {
+  background-color: #2a2b2f45;
+  border-radius: 15px;
+  width: 90%;
+  margin: auto;
+  margin-block: 15px;
+  overflow-wrap: break-word;
+}
+.top-post {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  width: 100%;
+}
+.top-post-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+}
+.top-post-text-in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5px;
+}
+.top-post-text-in h1 {
+  cursor: pointer;
+  font-size: 22px;
+}
+.top-post-text-in > h1:hover{
+  text-decoration: underline;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+.top-post-text > h5 {
+  color: #b0b3b8;
+  padding-left: 5px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
+}
+.sm {
+  width: 20px;
+  height: 20px;
+}
+.xsm {
+  width: 17px;
+  height: 17px;
+}
+
+.top-post-img {
+  display: flex;
+  padding: 10px;
+}
+.description-post {
+  padding-top: 15px;
+  text-align: start;
+  padding-bottom: 15px;
+  color: #fff;
+  width: 100%;
+}
+.description-post > p {
+  padding-left: 15px;
+  width: 95%;
+}
+.type-post {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.likeLabelThing {
+  position: relative;
+  width: max-content;
+}
+.top-post-img > img {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 45px;
+}
+.img-online {
+  width: 9px;
+  height: 9px;
+  background-color: #31a24c;
+  border: 1px solid #31a24c;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.card-post-buttons {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  background-color: transparent;
+  margin-bottom: 5px;
+}
+
+.card-post-buttons > button {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.card-post-comments {
+  display: flex;
+  align-items: center;
+  margin-block-end: 5px;
+}
+
+#card-input-2::placeholder {
+  color: #fff;
+}
+#card-input-2 {
+  color: #fff;
+  width: 90%;
+  height: 45px;
+  border-radius: 20px;
+  border: 1px;
+  text-indent: 20px;
+  text-overflow: hidden;
+  background-color: #585a5ce0;
+  margin-right: 10px;
+}
+.card-post-buttons > #likeBtn > img {
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.showReacts {
+  position: absolute;
+  margin-block: -50px;
+  width: max-content;
+  height: max-content;
+}
+.hrWide {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.174);
+}
